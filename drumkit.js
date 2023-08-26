@@ -1,4 +1,5 @@
 //for detecting button press
+
 var n=document.querySelectorAll(".drum").length;
 
 for(var i=0;i<n;i++)
@@ -61,10 +62,4 @@ function buttonAnimation(currentKey)
         activeButton.classList.remove("pressed");
     },100);
 }
-
-
-
-
-
-
 }
